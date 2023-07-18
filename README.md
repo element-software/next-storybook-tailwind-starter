@@ -1,8 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# [Next.js](https://nextjs.org/), [Storybook](https://storybook.js.org/), and [Tailwind](https://www.tailwindcss.com) starter with TypeScript support.
+
+## To use this template:
+
+- Clone it
+- Remove the .git folder
+- Run `git init .`
+- Then run `git add .`
+- And finally run `git commit -m "First commit"`
+
+## Structure of the template
+
+```bash
+.
+├── LICENSE
+├── README.md
+├── next-env.d.ts
+├── next.config.js
+├── package.json
+├── postcss.config.js
+├── public
+│   ├── next.svg
+│   └── vercel.svg
+├── src
+│   ├── assets
+│   ├── stories
+│   └── app
+├── tailwind.config.js
+├── tsconfig.json
+└── yarn.lock
+
+```
 
 ## Getting Started
 
-First, run the development server:
+First, install the packages:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+Then run the development server:
 
 ```bash
 npm run dev
