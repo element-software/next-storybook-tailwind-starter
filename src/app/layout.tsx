@@ -1,5 +1,5 @@
-import { Header } from '@/stories'
-import './globals.css'
+import { Header } from '@/components'
+import '../styles/globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
