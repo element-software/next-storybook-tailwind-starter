@@ -64,7 +64,7 @@ export const Header = ({
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          {!user ? (
+          {user ? (
             <div className="flex align-middle items-center justify-center">
               <p className="welcome mr-2">
                 Welcome, <b>User</b>!

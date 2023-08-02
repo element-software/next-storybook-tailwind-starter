@@ -27,6 +27,10 @@ interface ButtonProps {
    * Optional class name
    */
   className?: string;
+  /*
+   * Optional type
+   */
+  type?: 'button' | 'submit' | 'reset';
 }
 
 /**
@@ -38,13 +42,14 @@ export const Button = ({
   backgroundColor,
   children,
   className,
+  type = 'button',
   ...props
 }: ButtonProps) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   const classes = classNames('storybook-button', `storybook-button--${size}`, mode, className);
   return (
     <button
-      type="button"
+      type={type}
       className={classes}
       {...props}
     >

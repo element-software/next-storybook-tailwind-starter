@@ -137,9 +137,10 @@ const Login: FC = () => {
               <br />
 
               <Button
-                label={isSubmitting ? "Loading..." : "Sign in"}
                 type="submit"
-              />
+              >
+                {isSubmitting ? "Loading..." : "Sign in"}
+              </Button>
             </Form>
           )}
         </Formik>
