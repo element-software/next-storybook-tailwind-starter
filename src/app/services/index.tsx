@@ -1,5 +1,5 @@
-import { Button } from '@/components'
-import Image from 'next/image'
+import { Button } from "@/components";
+import Image from "next/image";
 
 export default function Services() {
   return (
@@ -9,9 +9,7 @@ export default function Services() {
           SERVICES
         </p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-        <Button
-          label='Hellloo'
-        />
+          <Button>Hello</Button>
         </div>
       </div>
 
@@ -34,7 +32,7 @@ export default function Services() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
+            Docs{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -51,7 +49,7 @@ export default function Services() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
+            Learn{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -68,7 +66,7 @@ export default function Services() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
+            Templates{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -85,7 +83,7 @@ export default function Services() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
+            Deploy{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -96,5 +94,5 @@ export default function Services() {
         </a>
       </div>
     </main>
-  )
+  );
 }
